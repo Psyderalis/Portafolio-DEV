@@ -11,9 +11,19 @@ h1 {
     font-family: 'Rubik Dirt', cursive;
 }
 
-.dark-section {
+.section-dark {
     color: whitesmoke;
     background: #1b1b32;
+}
+
+.section-title {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.section-text {
+    font-size: 1.2rem;
 }
 
 /* Navbar */
@@ -49,7 +59,16 @@ h1 {
     color: #615151;
 }
 
+/* About me */
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
 
+.about-me .container1 {
+    max-width: 600px;
+    text-align: center;
+}
 
 /* Responsive */
 @media screen and (max-width: 760px) {
