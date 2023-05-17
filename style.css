@@ -1,5 +1,22 @@
-/* Navbar */
+/* Generals*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.dark-section {
+    color: whitesmoke;
+    background: #1b1b32;
+}
+
+/* Navbar */
 .navbar {
     padding: 2rem;
     background-color: #f5f6f7;
@@ -8,4 +25,41 @@
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+}
+
+/* Hero */
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-img-profile {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 760px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-below-img {
+        max-width: 600px;
+    }
 }
