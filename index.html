@@ -21,8 +21,7 @@
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:wght@600&family=Rubik+Dirt&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
         rel="stylesheet">
 </head>
 
@@ -46,7 +45,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
+                        <a class="nav-link" href="#">Testimonials</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -215,7 +214,8 @@
                                 <a href="https://github.com/Psyderalis" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/melanie-tolvett/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/melanie-tolvett/" target="_blank"
+                                    rel="noopener noreferrer">
                                     <i class="bi bi-laptop"></i>
                                 </a>
                             </div>
@@ -232,7 +232,8 @@
                                 <a href="https://github.com/Psyderalis" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/melanie-tolvett/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/melanie-tolvett/" target="_blank"
+                                    rel="noopener noreferrer">
                                     <i class="bi bi-laptop"></i>
                                 </a>
                             </div>
@@ -254,7 +255,7 @@
         <h2 class="section-title">Artículos</h2>
         <div class="card">
             <div class="card-header">
-              Más recientes
+                Más recientes
             </div>
             <ul class="list-group list-group-flush">
                 <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
@@ -262,19 +263,71 @@
                     </li>
                 </a>
                 <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, consequuntur?</li>
+                    <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                        consequuntur?</li>
                 </a>
                 <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
                     <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 </a>
             </ul>
-          </div>
-          <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+        </div>
+        <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
             <button type="button" class="btn btn-info">
                 Ver más artículos
                 <i class="bi bi-arrow-right-circle-fill"></i>
             </button>
         </a>
+    </section>
+
+    <!--Testimonios-->
+    <section class="testimonials section-ligth">
+        <h2 class="section-title">Testimonials</h2>
+        <h3 class="section-description">Estos son algunos testimonios</h3>
+        <!--Carrusel-->
+        <div id="testimonialsCarousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonial-img rounded-circle" src="img/cliente1.svg" alt="Client 1 image">
+                        <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae quasi dolor nihil minima accusantium tempora at perspiciatis soluta repudiandae iste!</p>
+                        <div class="testimonial-info">
+                            <p class="client">Nombre cliente 1</p>
+                            <p class="position">Cargo cliente 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonial-img rounded-circle" src="img/cliente2.svg" alt="Client 2 image">
+                        <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae quasi dolor nihil minima accusantium tempora at perspiciatis soluta repudiandae iste!</p>
+                        <div class="testimonial-info">
+                            <p class="client">Nombre cliente 2</p>
+                            <p class="position">Cargo cliente 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonial-img rounded-circle" src="img/cliente3.svg" alt="Client 3 image">
+                        <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae quasi dolor nihil minima accusantium tempora at perspiciatis soluta repudiandae iste!</p>
+                        <div class="testimonial-info">
+                            <p class="client">Nombre cliente 3</p>
+                            <p class="position">Cargo cliente 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

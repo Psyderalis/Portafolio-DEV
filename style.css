@@ -28,7 +28,7 @@ h1 {
 }
 
 .section-description {
-    font-size: 1,2rem;
+    font-size: 1, 2rem;
     color: #584e4e;
 }
 
@@ -45,7 +45,7 @@ h1 {
     color: black;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
@@ -210,12 +210,68 @@ h1 {
     font-weight: bold;
 }
 
+/* Testimonios */
+
+.testimonials {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonials .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-img {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px;
+}
+
+.testimonial-text {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonial-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonial-img p {
+    margin-bottom: 0;
+}
+
+.testimonial-info .client {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.testimonial-info .position {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 400px) {
     .overlay p {
         font-size: 18px;
     }
+
     .overlay i {
         font-size: 40px;
     }
@@ -225,6 +281,16 @@ h1 {
     .navbar-brand {
         display: none;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .testimonial-img {
+        height: 120px;
+        width: 120px;
+    }   
+    .testimonial-text {
+        font-size: 18px;
+    } 
 }
 
 @media screen and (min-width: 700px) {
