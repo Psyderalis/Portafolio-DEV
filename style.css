@@ -16,6 +16,11 @@ h1 {
     background: #1b1b32;
 }
 
+.section-ligth {
+    color: black;
+    background-color: white;
+}
+
 .section-title {
     font-size: 2rem;
     padding: 15px 0;
@@ -68,6 +73,39 @@ h1 {
 .about-me .container1 {
     max-width: 600px;
     text-align: center;
+}
+
+/* Experience */
+.experience {
+    padding: 40px 40px 60px 40px;
+}
+
+.experience .row div {
+    height: 250px;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
 }
 
 /* Responsive */
