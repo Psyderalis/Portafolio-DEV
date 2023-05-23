@@ -27,8 +27,21 @@ h1 {
     font-family: 'Rubik Dirt', cursive;
 }
 
+.section-description {
+    font-size: 1,2rem;
+    color: #584e4e;
+}
+
 .section-text {
     font-size: 1.2rem;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white{
+    color: white;
 }
 
 /* Navbar */
@@ -117,6 +130,63 @@ h1 {
 
 .badge {
     margin: 5px;
+}
+
+/* Projects */
+.recent-projects {
+    padding: 40px;
+}
+
+.projects-container {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.recent-projects img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.project {
+    position: relative;
+}
+
+.project:hover img {
+    opacity: 0.2;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .icons-container {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
 }
 
 /* Responsive */
