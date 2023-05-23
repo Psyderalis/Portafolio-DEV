@@ -32,6 +32,11 @@ h1 {
     color: #584e4e;
 }
 
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
 .section-text {
     font-size: 1.2rem;
 }
@@ -190,6 +195,16 @@ h1 {
 }
 
 /* Responsive */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     .navbar-brand {
         display: none;
